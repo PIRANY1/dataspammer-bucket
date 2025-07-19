@@ -4,7 +4,7 @@
   "homepage": "https://github.com/PIRANY1/DataSpammer",
   "license": "Modified MIT License",
   "url": "https://github.com/PIRANY1/DataSpammer/releases/download/v6/dataspammer.bat",
-  "hash": "DEIN_SHA256_HASH",
+  "hash": "BDBEF25A01C06C51C30C49A7388CD7A89FC30A30E8533586A000B5B9C27B336F ",
   "post_install": [
     "cmd /c \"$dir\\dataspammer.bat\" scoop.install"
   ],
