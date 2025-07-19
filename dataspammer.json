@@ -1,0 +1,12 @@
+{
+  "version": "v6",
+  "description": "Script to stress-test various Protocols or Systems",
+  "homepage": "https://github.com/PIRANY1/DataSpammer",
+  "license": "Modified MIT License",
+  "url": "https://github.com/PIRANY1/DataSpammer/releases/download/v6/dataspammer.bat",
+  "hash": "dein_sha256_hash",
+  "post_install": [
+    "cmd /c dataspammer.bat scoop.install"
+  ],
+  "bin": "dataspammer.bat"
+}

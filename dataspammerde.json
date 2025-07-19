@@ -1,0 +1,12 @@
+{
+  "version": "v6",
+  "description": "Deutsche Version vom DataSpammer Script",
+  "homepage": "https://github.com/PIRANY1/DataSpammerDE",
+  "license": "Modified MIT License",
+  "url": "https://github.com/PIRANY1/DataSpammerDE/releases/download/v6/dataspammer.bat",
+  "hash": "SHA256-HASH-DER-DEUTSCHEN-DATEI",
+  "post_install": [
+    "cmd /c dataspammer.bat scoop.install"
+  ],
+  "bin": "dataspammer.bat"
+}
