@@ -8,5 +8,8 @@
   "post_install": [
     "cmd /c \"$dir\\dataspammer.bat\" scoop.install"
   ],
+  "pre_uninstall": [
+    "cmd /c \"$dir\\dataspammer.bat\" scoop.remove"
+  ],
   "bin": "dataspammer.bat"
 }
