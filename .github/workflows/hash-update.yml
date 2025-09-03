@@ -1,0 +1,28 @@
+name: Update Scoop Hashes
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-hashes:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run hash update script
+        run: pwsh ./update-hash.ps1
+
+      - name: Commit changes
+        # Use a dedicated action to automatically commit and push changes.
+        # This is cleaner than manual git commands and handles edge cases,
+        # such as not creating a commit if there are no changes.
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Required commit message
+          commit_message: "ci: update scoop hashes"
+          
