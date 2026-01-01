@@ -3,8 +3,8 @@
   "description": "Script to stress-test various Protocols or Systems",
   "homepage": "https://github.com/PIRANY1/DataSpammer",
   "license": "Modified MIT License",
-  "url": "https://github.com/PIRANY1/DataSpammer/releases/download/v6/dataspammer.bat",
-  "hash": "07E66D46BCF984C47F3CDC6FEE6819D3F2C1E4ACD14264B6A99487CE1C8FCCB0",
+  "url": "https://github.com/PIRANY1/DataSpammer/releases/download/v6.1/dataspammer.bat",
+  "hash": "20bc41ddc28e8f19f4d4794b505d44784c7f31f70b25b2b73815a757c5c92225",
   "post_install": [
     "cmd /c \"$dir\\dataspammer.bat\" scoop.install"
   ],
